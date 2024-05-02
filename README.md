@@ -1,81 +1,80 @@
-# [libp2p-website](libp2p.io)
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><a href="/libp2p/website/blob/master/libp2p.io"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">libp2p-网站</font></font></a></h1><a id="user-content-libp2p-website" class="anchor" aria-label="永久链接：libp2p-网站" href="#libp2p-website"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a href="http://ipn.io" rel="nofollow"><img src="https://camo.githubusercontent.com/62e6ed7e6189771ba7d3086ea72900afd671af6e207c6f0f73701ed3cb5c998f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6d61646525323062792d50726f746f636f6c2532304c6162732d626c75652e7376673f7374796c653d666c61742d737175617265" alt="" data-canonical-src="https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square" style="max-width: 100%;"></a>
+<a href="http://github.com/libp2p/libp2p"><img src="https://camo.githubusercontent.com/bbdbf0c1e4d50411016a23c4962e5535794bbdc98d65b7a8ea2d94cf115ef33b/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f70726f6a6563742d6c69627032702d626c75652e7376673f7374796c653d666c61742d737175617265" alt="" data-canonical-src="https://img.shields.io/badge/project-libp2p-blue.svg?style=flat-square" style="max-width: 100%;"></a>
+<a href="https://github.com/RichardLitt/standard-readme"><img src="https://camo.githubusercontent.com/601311be92f293e1ccc0b1d2f54d573e13237b48c0b4e6079d22d7c625a54e3a/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f7374616e646172642d2d726561646d652d4f4b2d677265656e2e7376673f7374796c653d666c61742d737175617265" alt="符合标准自述文件" data-canonical-src="https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square" style="max-width: 100%;"></a>
+<a href="https://circleci.com/gh/libp2p/website/tree/master" rel="nofollow"><img src="https://camo.githubusercontent.com/242997e8bd6aa365b49b6d926829881dbe5f9163e247a446b20847ecef4267a9/68747470733a2f2f696d672e736869656c64732e696f2f636972636c6563692f70726f6a6563742f6769746875622f6c69627032702f776562736974652f6d61737465722e737667" alt="CircleCI 分支" data-canonical-src="https://img.shields.io/circleci/project/github/libp2p/website/master.svg" style="max-width: 100%;"></a>
+<a href="https://discuss.libp2p.io" rel="nofollow"><img src="https://camo.githubusercontent.com/ce5f6378e4a097321efa9db43e25bba7975fbd140114bb888efaf08d45850c13/68747470733a2f2f696d672e736869656c64732e696f2f646973636f757273652f68747470732f646973637573732e6c69627032702e696f2f706f7374732e737667" alt="话语帖子" data-canonical-src="https://img.shields.io/discourse/https/discuss.libp2p.io/posts.svg" style="max-width: 100%;"></a></p>
+<blockquote>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">libp2p 官方网站</font></font><a href="http://libp2p.io" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://libp2p.io</font></font></a></p>
+</blockquote>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该存储库包含 libp2p 网站的源代码，网址为</font></font><a href="http://libp2p.io" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://libp2p.io</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该项目构建了一个静态站点来解释 libp2p，准备在 ipfs 上部署。它用于</font></font><code>hugo</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将 html 粘合在一起。它提供了一个信息丰富、面向公众的网站。最重要的是它所呈现的文字、概念和链接。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">站点的大部分内容都是数据驱动的，请查看目录</font></font><code>data</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，在其中找到实现信息背后的数据（json）。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装</font></font></h2><a id="user-content-install" class="anchor" aria-label="永久链接：安装" href="#install"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>git clone https://github.com/libp2p/website</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="git clone https://github.com/libp2p/website" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用法</font></font></h2><a id="user-content-usage" class="anchor" aria-label="永久链接：用法" href="#usage"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要部署站点 libp2p.io，请运行：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-c"><span class="pl-c">#</span> Build out the optimised site to ./public, where you can check it locally.</span>
+make
 
-[![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](http://ipn.io)
-[![](https://img.shields.io/badge/project-libp2p-blue.svg?style=flat-square)](http://github.com/libp2p/libp2p)
-[![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
-[![CircleCI branch](https://img.shields.io/circleci/project/github/libp2p/website/master.svg)](https://circleci.com/gh/libp2p/website/tree/master)
-[![Discourse posts](https://img.shields.io/discourse/https/discuss.libp2p.io/posts.svg)](https://discuss.libp2p.io)
+<span class="pl-c"><span class="pl-c">#</span> Add the site to your local ipfs, you can check it via /ipfs/&lt;hash&gt;</span>
+make deploy
 
-> Official website for libp2p http://libp2p.io
+<span class="pl-c"><span class="pl-c">#</span> Save your dnsimple api token as auth.token</span>
+cat <span class="pl-s"><span class="pl-pds">"</span>&lt;api token here&gt;<span class="pl-pds">"</span></span> <span class="pl-k">&gt;</span> auth.token
 
-This repository contains the source code for the libp2p website available at http://libp2p.io
-
-This project builds out a static site to explain libp2p, ready for deployment on ipfs. It uses `hugo` to glue the html together. It provides an informative, public-facing website. The most important things are the words, concepts and links it presents.
-
-Much of the site content is data-driven, take a look at the `data` dir where find the data behind the implementations information as json.
-
-## Install
-
-```sh
-git clone https://github.com/libp2p/website
-```
-
-## Usage
-
-To deploy the site libp2p.io, run:
-
-```sh
-# Build out the optimised site to ./public, where you can check it locally.
+<span class="pl-c"><span class="pl-c">#</span> Update the dns record for libp2p to point to the new ipfs hash.</span>
+make publish-to-domain</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="# Build out the optimised site to ./public, where you can check it locally.
 make
 
 # Add the site to your local ipfs, you can check it via /ipfs/<hash>
 make deploy
 
 # Save your dnsimple api token as auth.token
-cat "<api token here>" > auth.token
+cat &quot;<api token here>&quot; > auth.token
 
 # Update the dns record for libp2p to point to the new ipfs hash.
-make publish-to-domain
-```
-
-The following commands are available:
-
-### `make`
-
-Build the optimised site to the `./public` dir
-
-### `make serve`
-
-Preview the production ready site at http://localhost:1313 _(requires `hugo` on your `PATH`)_
-
-### `make dev`
-
-Start a hot-reloading dev server on http://localhost:1313 _(requires `hugo` on your `PATH`)_
-
-### `make minfy`
-
-Optimise all the things!
-
-### `make deploy`
-
-Build the site in the `public` dir and add to `ipfs` _(requires `hugo` & `ipfs` on your `PATH`)_
-
----
-
-See the `Makefile` for the full list or run `make help` in the project root. You can pass the env var `DEBUG=true` to increase the verbosity of your chosen command.
-
-## Dependencies
-
-* `Node.js` and `npm` for build tools
-* `ipfs` to deploy changes
-* `jq`, `curl` and an `auth.token` file in the project root containing your dnsimple api token to update the dns.
-
-All other dependencies are pulled from `npm` and the Makefile will run `npm install` for you because it's nice like that.
-
-## Contribute
-
-Please do! Check out [the issues](https://github.com/libp2p/website/issues), or open a PR!
-
-Check out our [notes on contributing ](https://github.com/libp2p/js-libp2p#contribute) for more information on how we work, and about contributing in general. Please be aware that all interactions related to libp2p are subject to the IPFS [Code of Conduct](https://github.com/ipfs/community/blob/master/code-of-conduct.md).
-
-Small note: If editing the README, please conform to the [standard-readme](https://github.com/RichardLitt/standard-readme) specification.
+make publish-to-domain" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以使用以下命令：</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><code>make</code></h3><a id="user-content-make" class="anchor" aria-label="永久链接： 制作" href="#make"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将优化站点构建到</font></font><code>./public</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目录</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><code>make serve</code></h3><a id="user-content-make-serve" class="anchor" aria-label="永久链接： 提供服务" href="#make-serve"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="http://localhost:1313" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在http://localhost:1313</font></font></a> <font style="vertical-align: inherit;"><font style="vertical-align: inherit;">预览生产就绪站点</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（需要</font></font><code>hugo</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您的</font></font><code>PATH</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></em></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><code>make dev</code></h3><a id="user-content-make-dev" class="anchor" aria-label="永久链接：制作开发" href="#make-dev"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="http://localhost:1313" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在http://localhost:1313</font></font></a> <font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上启动热重载开发服务器</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（需要</font></font><code>hugo</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您的</font></font><code>PATH</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></em></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><code>make minfy</code></h3><a id="user-content-make-minfy" class="anchor" aria-label="永久链接： 制作 minfy" href="#make-minfy"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">优化一切！</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><code>make deploy</code></h3><a id="user-content-make-deploy" class="anchor" aria-label="永久链接：进行部署" href="#make-deploy"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在目录中构建站点</font></font><code>public</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并添加到</font></font><code>ipfs</code> <em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（需要</font></font><code>hugo</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&amp;</font></font><code>ipfs</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在您的</font></font><code>PATH</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></em></p>
+<hr>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅</font></font><code>Makefile</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以获得完整列表或</font></font><code>make help</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在项目根目录中运行。您可以传递环境变量</font></font><code>DEBUG=true</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来增加所选命令的详细程度。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">依赖关系</font></font></h2><a id="user-content-dependencies" class="anchor" aria-label="永久链接：依赖关系" href="#dependencies"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><code>Node.js</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以及</font></font><code>npm</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">构建工具</font></font></li>
+<li><code>ipfs</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">部署更改</font></font></li>
+<li><code>jq</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><code>curl</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以及</font></font><code>auth.token</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">项目根目录中的一个文件，其中包含用于更新 dns 的 dnsimple api 令牌。</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所有其他依赖项都将从中提取</font></font><code>npm</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，并且 Makefile</font></font><code>npm install</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将为您运行，因为这样很好。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献</font></font></h2><a id="user-content-contribute" class="anchor" aria-label="永久链接：贡献" href="#contribute"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请这样做！查看</font></font><a href="https://github.com/libp2p/website/issues"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">问题</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，或打开 PR！</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看我们</font></font><a href="https://github.com/libp2p/js-libp2p#contribute"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关于贡献的说明，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以获取有关我们如何工作以及一般贡献的更多信息。请注意，与 libp2p 相关的所有交互均须遵守 IPFS</font></font><a href="https://github.com/ipfs/community/blob/master/code-of-conduct.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">行为准则</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">小提示：如果编辑自述文件，请遵守</font></font><a href="https://github.com/RichardLitt/standard-readme"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标准自述文件</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">规范。</font></font></p>
+</article></div>
